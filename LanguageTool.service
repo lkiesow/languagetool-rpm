@@ -1,0 +1,10 @@
+[Unit]
+Description=LanguageTool Service
+
+[Service]
+ExecStart=/usr/bin/java -cp /usr/share/LanguageTool/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin '*'
+User=languagetool
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
