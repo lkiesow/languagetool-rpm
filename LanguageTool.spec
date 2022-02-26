@@ -1,3 +1,7 @@
+%global __strip /bin/true
+%global __jar_repack %{nil}
+%define debug_package %{nil}
+
 %define  uid    languagetool
 %define  gid    languagetool
 

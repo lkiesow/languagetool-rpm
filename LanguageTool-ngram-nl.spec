@@ -1,3 +1,7 @@
+%global __strip /bin/true
+%global __jar_repack %{nil}
+%define debug_package %{nil}
+
 Name:           LanguageTool-ngram-nl
 Version:        20181229
 Release:        0%{?dist}
