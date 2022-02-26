@@ -2,7 +2,7 @@
 Description=LanguageTool Service
 
 [Service]
-ExecStart=/usr/bin/java -cp /usr/share/LanguageTool/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin '*'
+ExecStart=/usr/bin/java -cp /usr/share/LanguageTool/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081 --allow-origin '*' --config /etc/LanguageTool.properties
 User=languagetool
 Type=simple
 
