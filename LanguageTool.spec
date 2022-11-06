@@ -7,7 +7,7 @@
 
 Name:           LanguageTool
 Version:        5.9
-Release:        0%{?dist}
+Release:        1%{?dist}
 Summary:        LanguageTool is an Open Source proof­reading soft­ware for English, French, German, Polish, and more than 20 other languages.
 Group:          Office/Tools
 License:        LGPL 2.1
@@ -18,7 +18,7 @@ Source2:        https://raw.githubusercontent.com/lkiesow/languagetool-rpm/main/
 BuildArch:      noarch
 
 BuildRequires:  unzip
-Requires:       java
+Requires:       java-headless
 
 BuildRequires:     systemd
 Requires(post):    systemd
@@ -77,7 +77,10 @@ fi
 
 
 %changelog
-* Thu Sep 29 2022 Lars Kiesow <lkiesow@uos.de> - 5.9
+* Mon Nov 07 2022 Lars Kiesow <lkiesow@uos.de> - 5.9-1
+- Switch to headless Java
+
+* Thu Sep 29 2022 Lars Kiesow <lkiesow@uos.de> - 5.9-0
 - Update to 5.9
 
 * Tue Jul 05 2022 Lars Kiesow <lkiesow@uos.de> - 5.8
