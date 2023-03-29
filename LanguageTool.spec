@@ -6,7 +6,7 @@
 %define  gid    languagetool
 
 Name:           LanguageTool
-Version:        6.0
+Version:        6.1
 Release:        1%{?dist}
 Summary:        LanguageTool is an Open Source proof­reading soft­ware for English, French, German, Polish, and more than 20 other languages.
 Group:          Office/Tools
@@ -77,6 +77,9 @@ fi
 
 
 %changelog
+* Wed Mar 29 2023 Lars Kiesow <lkiesow@uos.de> - 6.1
+- Update to 6.1
+
 * Fri Dec 30 2022 Lars Kiesow <lkiesow@uos.de> - 6.0
 - Update to 6.0
 
