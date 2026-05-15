@@ -7,7 +7,7 @@
 
 Name:           LanguageTool
 Version:        6.6
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        LanguageTool is an Open Source proof­reading soft­ware for English, French, German, Polish, and more than 20 other languages.
 Group:          Office/Tools
 License:        LGPL 2.1
